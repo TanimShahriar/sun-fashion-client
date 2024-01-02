@@ -12,7 +12,7 @@ const Navbar = () => {
   const navLinks = <>
 
     <NavLink className="focus:bg-slate-600 px-3 py-1 text-base text-slate-200  rounded-md font-semibold  btn-outline mr-2 duration-300 " to='/'>Home</NavLink>
-    <NavLink className="focus:bg-slate-600 px-3 py-1 text-base text-slate-200  rounded-md font-semibold  btn-outline mr-2 duration-300 " to='/apartment'>Categories</NavLink>
+    <NavLink className="focus:bg-slate-600 px-3 py-1 text-base text-slate-200  rounded-md font-semibold  btn-outline mr-2 duration-300 " to='/categories'>Categories</NavLink>
     <NavLink className="focus:bg-slate-600 px-3 py-1 text-base text-slate-200  rounded-md font-semibold  btn-outline mr-2 duration-300 " to='/allProducts'>Products</NavLink>
     <NavLink className="focus:bg-slate-600 px-3 py-1 text-base text-slate-200  rounded-md font-semibold  btn-outline mr-2 duration-300 " to='/gallery'>Pages</NavLink>
     <NavLink className="focus:bg-slate-600 px-3 py-1 text-base text-slate-200  rounded-md font-semibold  btn-outline mr-2 duration-300 " to='/gallery'>Blogs</NavLink>

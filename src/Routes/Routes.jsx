@@ -10,6 +10,7 @@ import Cosmetics from "../Pages/Home/ProductCategory/Cosmetics";
 import Fashion from "../Pages/Home/ProductCategory/Fashion";
 import Bags from "../Pages/Home/ProductCategory/Bag";
 import Sunglass from "../Pages/Home/ProductCategory/Sunglass";
+import Categories from "../Pages/Categories/Categories";
 
 
 
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
       {
         path: "/sunglasses",
         element: <Sunglass></Sunglass>
+      },
+      {
+        path: "/categories",
+        element: <Categories></Categories>
       },
 
 
